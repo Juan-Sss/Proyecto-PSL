@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+.opciones{
+    list-style-type: none;
+}
+#nav-pc{
+    display: none;
+}
+#nav-movile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2C6F;
+}
+.titulo-movile{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+#btn-hamb{
+    border: none;
+    background-color: #2C2C6F;
+}
+#hamburguesa{
+    width: 2rem;
+}
